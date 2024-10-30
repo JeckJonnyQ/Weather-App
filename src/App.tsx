@@ -13,6 +13,7 @@ function App() {
   } | null>(null);
 
   function handleGetWeather() {
+    setWeather(null);
     getWeather(city, setWeather, setError);
   }
 
